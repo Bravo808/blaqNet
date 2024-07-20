@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  	<title>BlaqNet HTML Studio</title>
+  	<title>BlaqNet Studio</title>
 	<meta name="description" content="BlaqNet HTML Studio - Your one-stop shop for all your web development needs">
 	<meta name="keywords" content="web development, design, portfolio, BlaqNet HTML Studio">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,46 +20,134 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="#about">Who is us</a></li>
+				<li><a href="#about">BLAQNET</a></li>
 				<li><a href="#services">Services</a></li>
-				<li><a href="#projects">Recent Projects</a></li>
+				<li><a href="#projects">Projects</a></li>
 				<li><a href="#contact">Contact us</a></li>
 			</ul>
 		</nav>
 	</header>
+	
 	<main>
-		<section id="about">
-			<h2>Who is us (BlaqNet)</h2>
-			<p>We are a team of web development experts passionate about creating innovative solutions.</p>
+	  
+    <section id="about">
+			<h2>Who is BlaqNet Studios</h2>
+			<p>We are web developers passionate about creating innovative solutions.</p>
+			
 			<p>Our mission is to deliver high-quality web services that meet our clients' needs and exceed their expectations.</p>
+			
 		</section>
-		<section id="services">
-			<h2>Services</h2>
-			<ul>
-				<li>Web Design</li>
-				<li>Web Development</li>
-				<li>Responsive Design</li>
-				<li>E-commerce Solutions</li>
-			</ul>
-		</section>
-		<section id="projects">
-			<h2>Recent Projects</h2>
-			<div class="project-container">
-				<div class="project">
-					<img src="project1.jpg" alt="Project 1">
-					<h3>Project 1</h3>
-					<p>Description of Project 1</p>
-				</div>
-				<div class="project">
-					<img src="project2.jpg" alt="Project 2">
-					<h3>Project 2</h3>
-					<p>Description of Project 2</p>
-				</div>
-				<!-- Add more projects here -->
-			</div>
-		</section>
+		
+
+<section id="services">
+  <h2>Services</h2>
+  <div class="service-grid">
+  
+
+    <div class="service-card">
+      <div class="service-front">
+        <h3>Mobile App Development</h3>
+      </div>
+      <div class="service-back">
+        <h3>📱 📱📱📱📱📱📱📱</h3>
+      </div>
+    </div>
+      <div class="service-card">
+      <div class="service-front">
+        <h3>UX/UI Design</h3>
+      </div>
+      <div class="service-back">
+        <h3>📱🚨🚧🚥🖥️💻💡</h3>
+      </div>
+    </div>
+    <div class="service-card">
+      <div class="service-front">
+        <h3>Web Application Development</h3>
+      </div>
+      <div class="service-back">
+        <h3>🖥️💻⌨️🖥️💻⌨️📱</h3>
+      </div>
+    </div>
+    <div class="service-card">
+      <div class="service-front">
+        <h3>Search Engine Optimization (SEO)</h3>
+      </div>
+      <div class="service-back">
+        <h3>🔍🔍🔍🔍🔍</h3>
+      </div>
+    </div>
+    <div class="service-card">
+      <div class="service-front">
+        <h3>Social Media Marketing</h3>
+      </div>
+      <div class="service-back">
+          <h3>📩🪧🎯📈📉📊</h3>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-front">
+        <h3>Creative Writing</h3>
+      </div>
+      <div class="service-back">
+        <h3>📝📃📋📄📑</h3>
+      </div>
+    </div>
+  </div>
+</section>
+		
+	  
+      <section id="projects">
+        <h2>Recent Projects</h2>
+        <div id="project-slider">
+          <div id="project-container">
+            <div class="project">
+              <img src="/src/img/ace-1869825_1280.jpg" alt="Project 1">
+              <h3>Project 1</h3>
+              <p>Description of Project 1</p>
+              <a href="#" class="project-url">Visit Project</a>
+            </div>
+            
+            <div class="project">
+              <img src="/src/img/cube-1963036_1280.jpg" alt="Project 2">
+              <h3>Project 2</h3>
+              <p>Description of Project 2</p>
+              <a href="#" class="project-url">Visit Project</a>
+            </div>
+            
+              <div class="project">
+              <img src="/src/img/360_F_270047776_8pphUa75mOhIvTRRy4thaJEY2Mig1Gnz.jpg" alt="Project 2">
+              <h3>Project 3</h3>
+              <p>Description of Project 3</p>
+              <a href="#" class="project-url">Visit Project</a>
+            </div>
+            
+            <div class="project">
+                <img src="/src/img/chess-2730034_1280.jpg" alt="Project 2">
+                <h3>Project 4</h3>
+                <p>Description of Project 4</p>
+                <a href="#" class="project-url">Visit Project</a>
+              </div>
+            
+            <div class="project">
+              <img src="/src/img/cheetah-product-pages.jpg" alt="Project 2">
+              <h3>Project 5</h3>
+              <p>Description of Project 5</p>
+              <a href="#" class="project-url">Visit Project</a>
+            </div>  
+            
+          </div>
+          <button id="left-btn"><</button>
+          <button id="right-btn">></button>
+        </div>
+      </section>
+
 		<section id="contact">
 			<h2>Contact us</h2>
+			
+
+
+
 			<form>
 				<label for="name">Name:</label>
 				<input type="text" id="name" name="name"><br><br>
@@ -69,12 +157,22 @@
 				<textarea id="message" name="message"></textarea><br><br>
 				<input type="submit" value="Send">
 			</form>
+			
+			
+			<div class="socials">
+
+			  
+			</div>
 		</section>
+		
+		
 	</main>
 	
 	
+
+	
 	<footer>
-		<p>&copy; 2023 BlaqNet HTML Studio. All rights reserved.</p>
+		<p>&copy; 2023 BlaqNet Studio. All rights reserved.</p>
 	</footer>
   
   <script src="main.js"></script>
